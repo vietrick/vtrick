@@ -9,7 +9,7 @@ Template này được mình lấy cảm hứng từ CSS-Trick, thuộc thể lo
 
 Author: **Vietrick**
 
-Latest version: **1.9.1**
+Latest version: **1.9.2**
 
 Changelog: https://vietrick.com/vtrick-creative-blogger-template/
 
