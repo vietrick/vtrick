@@ -11,7 +11,7 @@
 /* -----------------------------------------------
 Blogger Template Style
 Name:         VTrick - Premium Creative Blogger Template
-Version:      v1.9.1
+Version:      v1.9.2
 Download:     https://www.vietrick.com/vtrick-creative-blogger-template
 Author:       Lê Hòa
 Author Url:   https://www.vietrick.com
@@ -1604,7 +1604,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Right Call to Action
       </div>
     </b:includable>
             <b:includable id='commentFormIframeSrc' var='post'>
-	  <a expr:href='data:view.isPost ? &quot;https://www.blogger.com/comment-iframe.g?blogID=&quot; + data:blog.blogId + &quot;&amp;postID=&quot; + data:view.postId + &quot;&amp;skin=soho&quot; : &quot;https://www.blogger.com/comment-iframe.g?blogID=&quot; + data:blog.blogId + &quot;&amp;pageID=&quot; + data:view.pageId + &quot;&amp;skin=soho&quot;' id='comment-editor-src' rel='noopener noreferrer' title='Comment Form Link'/>
+	  <a expr:href='data:view.isPost ? &quot;https://www.blogger.com/comment/frame/&quot; + data:blog.blogId + &quot;?po=&quot; + data:view.postId + &quot;&amp;skin=soho&quot; : &quot;https://www.blogger.com/comment/frame/&quot; + data:blog.blogId + &quot;?po=&quot; + data:view.pageId + &quot;&amp;skin=soho&quot;' id='comment-editor-src' rel='noopener noreferrer' title='Comment Form Link'/>
     </b:includable>
             <b:includable id='commentItem' var='comment'><b:comment>Replaced</b:comment></b:includable>
             <b:includable id='commentList' var='comments'><b:comment>Replaced</b:comment></b:includable>
@@ -1753,7 +1753,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Right Call to Action
     <div class='loadmore hidden' expr:data-post-id='data:post.id'><a expr:title='data:messages.showMore' href='#loadmore' rel='nofollow' target='_self'><data:messages.showMore/></a></div>
 	</div>
     
-    <b:if cond='data:post.allowComments and data:post.numberOfComments &gt; 0'><div class='continue ' id='top-continue'><a class='comment-reply' expr:href='data:view.isPost ? &quot;https://www.blogger.com/comment-iframe.g?blogID=&quot; + data:blog.blogId + &quot;&amp;postID=&quot; + data:view.postId + &quot;&amp;skin=soho&quot; : &quot;https://www.blogger.com/comment-iframe.g?blogID=&quot; + data:blog.blogId + &quot;&amp;pageID=&quot; + data:view.pageId + &quot;&amp;skin=soho&quot;' expr:title='data:messages.postAComment' rel='nofollow' target='_self'><data:messages.postAComment/> <i class='bi bi-chat-right-text-fill'/></a></div>
+    <b:if cond='data:post.allowComments and data:post.numberOfComments &gt; 0'><div class='continue ' id='top-continue'><a class='comment-reply' expr:href='data:view.isPost ? &quot;https://www.blogger.com/comment/frame/&quot; + data:blog.blogId + &quot;?po=&quot; + data:view.postId + &quot;&amp;skin=soho&quot; : &quot;https://www.blogger.com/comment/frame/&quot; + data:blog.blogId + &quot;?po=&quot; + data:view.pageId + &quot;&amp;skin=soho&quot;' expr:title='data:messages.postAComment' rel='nofollow' target='_self'><data:messages.postAComment/> <i class='bi bi-chat-right-text-fill'/></a></div>
 	<div class='comment-replybox-thread hidden'/></b:if>
   </div>
 </b:includable>
