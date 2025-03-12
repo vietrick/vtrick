@@ -268,7 +268,7 @@ ul.cta-containter{display:block;position:fixed;z-index:50;width:40px;bottom:18px
 <b:template-skin><![CDATA[
 html,body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}
 body#layout{position:relative;width:auto;max-width:100%;background-color:#f9f9f9;padding:95px 5px 0;margin:0}
-body#layout:before{content:'VTrick Premium v1.8';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:23px;color:#0F1618;line-height:95px;text-align:center}
+body#layout:before{content:'VTrick Premium v1.9';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:23px;color:#0F1618;line-height:95px;text-align:center}
 body#layout div.section{display:block;background-color:#f1f1f1!important;margin:0 5px 10px!important;padding:16px 16px 18px!important;border-color:#e5e5e5}
 body#layout .no-items.section{display:block}
 body#layout .section h4{font-size:14px;color:#0F1618;text-transform:uppercase;margin:0}
